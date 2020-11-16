@@ -75,3 +75,20 @@ d
 - b
 - c
 - d
+
+# with list and title
+
+## better
+- b
+## better
+- c
+- d
+
+
+# with list and *text*
+
+**better**
+- b
+**better**
+- c
+- d
