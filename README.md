@@ -84,11 +84,29 @@ d
 - c
 - d
 
-
 # with list and *text*
 
 **better**
 - b
 **better**
+- c
+- d
+
+# with list and *text*
+  b
+  c
+  d
+  
+# with list and *text*
+  **better**
+- b
+  **better**
+- c
+- d
+
+# with list and *text*
+ **better**
+- b
+ **better**
 - c
 - d
