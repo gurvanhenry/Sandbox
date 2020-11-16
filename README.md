@@ -110,3 +110,9 @@ d
  **better**
 - c
 - d
+
+  __a2dissite__
+* _mod_ - The conf file in sites-enabled to be moved to sites-available
+* _add_ - `-mod` will name a path to a file to be moved to sites-available
+* _norestart_ - Don't restart the web server on completion
+
