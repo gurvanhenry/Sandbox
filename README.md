@@ -174,3 +174,13 @@ Move ServerRoot\conf\sites-available\mysite.conf to ServerRoot\conf\sites-enable
 
 	a2dissite mysite
 Disable ServerRoot\conf\sites-enabled\mysite.conf by moving it to sites-available and restarting the web server.
+
+
+
+**change password**
+
+passwd (change password for debian user)
+sudo passwd root (change root password)
+
+**update system**
+sudo apt update
