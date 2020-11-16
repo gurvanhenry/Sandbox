@@ -155,3 +155,22 @@ Adds a comment marker to the LoadModule line of the specified module to disable 
 
   **B**
 - d
+
+
+	a2ensite
+Show information about enabled and disabled sites.
+
+	a2ensite mysite
+Enables the site defined in the file ServerRoot\conf\sites-available\mysite.conf.
+
+	a2ensite C:\my\folder\mysite.conf -add
+Move the Virtual host configuration defined in C:\my\folder\mysite.conf to ServerRoot\conf\sites-enabled.
+
+	a2ensite C:\my\folder\mysite.conf -c
+Copy mysite.conf from the specified folder into sites-enabled, then enable it.
+
+	a2ensite mysite –norestart
+Move ServerRoot\conf\sites-available\mysite.conf to ServerRoot\conf\sites-enabled, but don’t restart the web server.
+
+	a2dissite mysite
+Disable ServerRoot\conf\sites-enabled\mysite.conf by moving it to sites-available and restarting the web server.
