@@ -121,8 +121,8 @@ d
 
 # and if there is no emtpy line
 
-  **A**
-  b
-  **A**
-  c
-  d
+  - **A**
+  - b
+  - **A**
+  - c
+  - d
