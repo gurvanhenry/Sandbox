@@ -60,3 +60,10 @@ a
 a
 
 a
+
+
+# and if there is no emtpy line
+
+b
+c
+d
