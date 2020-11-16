@@ -178,9 +178,8 @@ Disable ServerRoot\conf\sites-enabled\mysite.conf by moving it to sites-availabl
 
 
 **change password**
-
-passwd (change password for debian user)
-sudo passwd root (change root password)
+- passwd (change password for debian user)
+- sudo passwd root (change root password)
 
 **update system**
-sudo apt update
+- sudo apt update
