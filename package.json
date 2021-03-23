@@ -1,6 +1,6 @@
 {
   "name": "sandbox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "inner clickable link with fr accent: [title with é](#title-with-é)",
   "main": "index.js",
   "scripts": {
